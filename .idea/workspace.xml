@@ -1,252 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35682d9-bda6-46fe-8c3a-cdb401f9340e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.classless.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.conditional.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.amber.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.amber.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.cyan.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.cyan.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fuchsia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.fuchsia.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.grey.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.indigo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.indigo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.jade.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.jade.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.lime.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.lime.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.orange.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.pink.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.pumpkin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.pumpkin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.sand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.sand.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.slate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.slate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.violet.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.zinc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/pico.zinc.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pico/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    <list default="true" id="a35682d9-bda6-46fe-8c3a-cdb401f9340e" name="Changes" comment="szar, de működik">
+      <change afterPath="$PROJECT_DIR$/javítandó hibák.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/abilities/ability_Taktikai_Atom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,11 +87,26 @@
       <workItem from="1790438084462" duration="5273000" />
       <workItem from="1790443390390" duration="2513000" />
       <workItem from="1790797423254" duration="1215000" />
-      <workItem from="1790798665325" duration="954000" />
+      <workItem from="1790798665325" duration="1236000" />
+      <workItem from="1790799921505" duration="2173000" />
+      <workItem from="1791205189377" duration="306000" />
     </task>
+    <task id="LOCAL-00001" summary="szar, de működik">
+      <option name="closed" value="true" />
+      <created>1790799729004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790799729004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="szar, de működik" />
+    <option name="LAST_COMMIT_MESSAGE" value="szar, de működik" />
   </component>
 </project>

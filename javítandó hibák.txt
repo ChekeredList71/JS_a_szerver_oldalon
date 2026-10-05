@@ -1,0 +1,53 @@
+Nézet 4 – Macskaprofil:
+
+- A Macskaprofil nézetben megjelenik a cica születési dátuma (született 1950-07-11).
+
+-  születési dátum jelenleg egyik entitás attribútumlistájában sem szerepel.
+
+Teendő: a születési dátumot hozzá kell adni a megfelelő entitáshoz (várhatóan a Macskaprofilhoz), vagy el kell távolítani a Nézet 4-ből.
+
+Nézet 1 – Macskalista:
+
+- Az „Új cica”, „Szerkeszt” és „cica OBLITERÁLÁSA” gombok olyan funkciókra/űrlapokra vezetnek, amelyeket a specifikáció nem ír le.
+
+Teendő: az új cica létrehozásához, szerkesztéshez és törléshez szükséges működést/űrlapokat specifikálni, illetve mockupot készíteni hozzájuk.
+
+Nézet 2 – Szuperképességek listája:
+
+- Az „Új” és „Szerkeszt” gombok szintén nem specifikált űrlapokra vezetnek.
+
+Teendő: létrehozási és szerkesztési űrlapok, valamint azok működésének definiálása és mockup készítése.
+
+Mockupok – VIOLENCE képesség darabszáma:
+
+- A VIOLENCE képességnél „3” macska szerepel.
+
+- A macskalistán csak 2 cica látható.
+
+Teendő: a darabszámot és a tényleges macskalista adatait összhangba hozni.
+
+Mockupok – „Pipebomb in the mailbox” képesség:
+
+Nézet 3-ban szerepel a „Pipebomb in the mailbox” képesség.
+
+- Ez a képesség nem szerepel a Nézet 2 képességlistáján.
+
+Teendő: a képességet felvenni a Nézet 2 listájába, vagy eltávolítani Nézet 3-ból.
+
+Seed-függetlenség – Macskaprofil létrehozása:
+
+- A Macska entitás UI-ból létrehozható az „Új cica” gombbal.
+
+- A Szuperképesség entitás UI-ból létrehozható az „Új” gombbal.
+
+- A Macskaprofil entitáshoz azonban nincs létrehozási út definiálva.
+
+Teendő: egyértelműen definiálni, hogyan jön létre a Macskaprofil.
+
+Seed-függetlenség – Nézet 4:
+
+Ha nincs seed adat, és a Macskaprofil csak meglévő profilból jeleníthető meg, akkor a Nézet 4 létrehozási folyamat nélkül üres maradhat.
+
+Javítás helye: adatmodell + létrehozási folyamat/specifikáció.
+
+Teendő: biztosítani kell, hogy egy új Macska létrehozásakor a hozzá tartozó Macskaprofil is létrejöjjön, vagy legyen explicit profil-létrehozási lehetőség.
