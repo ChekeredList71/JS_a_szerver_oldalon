@@ -26,12 +26,6 @@ Mockupok – VIOLENCE képesség darabszáma:
 
 Teendő: a darabszámot és a tényleges macskalista adatait összhangba hozni.
 
-Mockupok – „Pipebomb in the mailbox” képesség:
-
-Nézet 3-ban szerepel a „Pipebomb in the mailbox” képesség.
-
-- Ez a képesség nem szerepel a Nézet 2 képességlistáján.
-
 Teendő: a képességet felvenni a Nézet 2 listájába, vagy eltávolítani Nézet 3-ból.
 
 Seed-függetlenség – Macskaprofil létrehozása:

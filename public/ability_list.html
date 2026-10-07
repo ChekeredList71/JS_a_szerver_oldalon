@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/pico/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Macskák</title>
+</head>
+
+<body>
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title"></h1>
+        <script>document.getElementById("title").innerHTML = "Bivalyhágnádi Cicccaaaaaügyi Minisztérium | " + document.title</script>
+    </div>
+</header>
+<hr>
+<main class="container-fluid">
+    <div id="cat-item-header">
+        <p>Név</p>
+        <div class="verticalLine"></div>
+        <p>Rövid leírás</p>
+        <div class="verticalLine"></div>
+        <p>Hány macska rendelkezik ezzel?</p>
+    </div>
+    <div id="cat-list">
+        <div class="cat-item">
+            <p>VIOLENCE</p>
+            <div class="verticalLine"></div>
+            <p>Összetett erőszak képessége</p>
+            <div class="verticalLine"></div>
+            <p>1</p>
+        </div>
+        <div class="cat-item">
+            <p>Moduláris csereelem</p>
+            <div class="verticalLine"></div>
+            <p>Tetszőleges komponens helyettesítése</p>
+            <div class="verticalLine"></div>
+            <p>1</p>
+        </div>
+        <div class="cat-item">
+            <p>Taktikai Atom</p>
+            <div class="verticalLine"></div>
+            <p>Robbanékony</p>
+            <div class="verticalLine"></div>
+            <p>1</p>
+        </div>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button>Új képesség</button>
+        <button onclick="window.location.href='../index.html'">Vissza a főoldalra</button>
+        <button style="background-color: red">Képesség törlése</button>
+    </div>
+</footer>
+</body>
+</html>
