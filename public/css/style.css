@@ -73,7 +73,6 @@ main {
     background-size: 200% 200%;
     /* Apply the animation */
     animation: rainbow-flow 5s ease infinite;
-    background-blend-mode: burn;
 }
 
 #ability-item-header {
@@ -99,7 +98,6 @@ main {
     background-size: 200% 200%;
     /* Apply the animation */
     animation: rainbow-flow 5s ease infinite;
-    background-blend-mode: burn;
 }
 
 .cat-item p {
