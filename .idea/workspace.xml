@@ -1,17 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a35682d9-bda6-46fe-8c3a-cdb401f9340e" name="Changes" comment="jó és implementing abilities">
-      <change afterPath="$PROJECT_DIR$/public/abilities/ability_Modularis_csereelem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/abilities/ability_VIOLENCE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ability_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profiles/profile_Jeremy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/profiles/profile_Sanyi.html" afterDir="false" />
+    <list default="true" id="a35682d9-bda6-46fe-8c3a-cdb401f9340e" name="Changes" comment="kész">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javítandó hibák.txt" beforeDir="false" afterPath="$PROJECT_DIR$/javítandó hibák.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/abilities/ability_Taktikai_Atom.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/abilities/ability_Taktikai_Atom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.conditional.zinc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.classless.zinc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.conditional.zinc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.amber.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.amber.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.conditional.zinc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.cyan.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.cyan.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fluid.classless.zinc.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fuchsia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.fuchsia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.grey.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.indigo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.indigo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.jade.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.jade.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.lime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.lime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.orange.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.pink.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.pumpkin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.pumpkin.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.purple.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.red.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.sand.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.sand.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.slate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.violet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.violet.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.yellow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.zinc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/pico/pico.zinc.min.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +286,7 @@
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,7 +327,9 @@
       <workItem from="1790798665325" duration="1236000" />
       <workItem from="1790799921505" duration="2173000" />
       <workItem from="1791205189377" duration="10511000" />
-      <workItem from="1791371686320" duration="3333000" />
+      <workItem from="1791371686320" duration="4359000" />
+      <workItem from="1791455495303" duration="2570000" />
+      <workItem from="1791629404226" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="szar, de működik">
       <option name="closed" value="true" />
@@ -117,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791205525404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kész">
+      <option name="closed" value="true" />
+      <created>1791380191505</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791380191505</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +364,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="szar, de működik" />
     <MESSAGE value="jó és implementing abilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="jó és implementing abilities" />
+    <MESSAGE value="kész" />
+    <option name="LAST_COMMIT_MESSAGE" value="kész" />
   </component>
 </project>
