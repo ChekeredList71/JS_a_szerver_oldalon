@@ -1,7 +1,7 @@
 import express from "express";
-import abilityRouter from "./middlewares/abilityRouter.js";
-import catRouter from "./middlewares/catRouter.js";
-import catProfileRouter from "./middlewares/catProfileRouter.js";
+import abilityRouter from "./routes/abilityRouter.js";
+import catRouter from "./routes/catRouter.js";
+import catProfileRouter from "./routes/catProfileRouter.js";
 
 const app = express()
 

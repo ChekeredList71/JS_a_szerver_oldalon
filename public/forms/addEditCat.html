@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Új ciccaaaa</title>
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="/css/pico/pico.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title"></h1>
+        <script>document.getElementById("title").innerHTML = `Bivalyhágnádi Cicccaaaaaügyi Minisztérium | ${document.title}`</script>
+    </div>
+</header>
+<main class="container-fluid">
+    <div class="left-aligned-screenfill-flexbox">
+        <form id="cat-submission-form" method="post">
+            <label for="cat-form-name">Név</label>
+            <input type="text" name="name" id="cat-form-name" required/>
+            <label for="cat-form-sex">Neme</label>
+            <input type="text" name="sex" id="cat-form-sex" required/>
+            <label for="cat-form-furColour">Bundaszín</label>
+            <input type="text" name="furColour" id="cat-form-furColour" required/>
+            <button type="submit">Mentés</button>
+        </form>
+        <script>
+            document.getElementById("cat-submission-form").addEventListener("submit", async (event) => {
+                event.preventDefault()
+                const data = Object.fromEntries(new FormData(event.currentTarget).entries())
+                data["abilityID"] = 0 //TODO: ezzel majd cseszni valamit, amint MongoDB
+
+                const res = await fetch("/api/cats/add", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(data)
+                })
+
+                console.log(res)
+
+                if (res.ok) {
+                    window.location.assign("/index.html")
+                }
+            })
+        </script>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/index.html'">Vissza a főoldalra</button>
+    </div>
+</footer>
+
+</body>
+</html>
