@@ -1,3 +1,5 @@
+"use strict";
+
 import Cat from "../../models/cat.js";
 
 //returns a catPic based on ID

@@ -1,3 +1,5 @@
+"use strict";
+
 import Ability from "../../models/ability.js";
 
 // returns all abilities in a dummy thicc json

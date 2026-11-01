@@ -1,3 +1,5 @@
+"use strict";
+
 import Cat from "../../models/cat.js";
 
 // adds cat. Expected format: { name: string, sex: string, furColour: string, abilityID: string }

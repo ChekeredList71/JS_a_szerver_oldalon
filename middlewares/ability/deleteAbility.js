@@ -1,3 +1,4 @@
+"use strict";
 import Ability from "../../models/ability.js";
 
 // delete ability by id

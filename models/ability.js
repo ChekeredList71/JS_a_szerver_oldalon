@@ -1,3 +1,5 @@
+"use strict";
+
 import db from "../config/db.js"
 
 const Ability = db.model('Ability', {

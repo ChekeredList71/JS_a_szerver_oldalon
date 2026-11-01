@@ -1,3 +1,5 @@
+"use strict";
+
 import db from "../config/db.js"
 import {Schema} from "mongoose";
 

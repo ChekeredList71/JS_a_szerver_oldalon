@@ -8,15 +8,15 @@
 </header>
 <main class="container-fluid">
     <div class="left-aligned-screenfill-flexbox">
-        <form id="ability-submission-form" method="post" action="/api/abilities/add" enctype="multipart/form-data">
+        <form id="ability-submission-form" method="post" action="/api/abilities/<%= typeof ability === "undefined" ? "add" : `${ability._id}/edit` %>"  enctype="multipart/form-data">
             <label for="ability-form-name">Név</label>
-            <input type="text" name="name" id="ability-form-name" required/>
+            <input type="text" name="name" id="ability-form-name" value="<%= typeof ability === 'undefined' ? '' : ability.name %>" required/>
             <label for="ability-form-shortDesc">Rövid leírás</label>
-            <input type="text" name="shortDesc" id="ability-form-shortDesc" required/>
+            <input type="text" name="shortDesc" id="ability-form-shortDesc" value="<%= typeof ability === 'undefined' ? '' : ability.shortDesc %>"  required/>
             <label for="ability-form-longDesc">Hosszú leírás</label>
-            <textarea type="text" name="longDesc" id="ability-form-longDesc" required style="height: 45%"></textarea>
+            <textarea type="text" name="longDesc" id="ability-form-longDesc" required style="height: 45%"><%= typeof ability === 'undefined' ? '' : ability.longDesc %></textarea>
             <label for="ability-form-abilityPic">CICCAAAkép</label>
-            <input type="file" name="abilityPic" id="ability-form-abilityPic" required/>
+            <input type="file" name="abilityPic" id="ability-form-abilityPic" <%- typeof ability === 'undefined' ? 'required' : '' %>/>
             <button type="submit">Mentés</button>
         </form>
     </div>
@@ -24,7 +24,7 @@
 
 <footer class="container-fluid">
     <div class="cat-controls">
-        <button onclick="window.location.href='/'">Vissza a főoldalra</button>
+        <button onclick="window.location.href='/ability_list'">Vissza a képességekhez</button>
     </div>
 </footer>
 <%- include("../templates/footer.ejs")%>

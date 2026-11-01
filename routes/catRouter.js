@@ -1,3 +1,5 @@
+"use strict";
+
 import express from "express";
 
 import addCat from "../middlewares/cat/addCat.js";
@@ -11,15 +13,10 @@ import uploadMW from "../middlewares/imgUploadMW.js";
 const catRouter = express.Router()
 
 catRouter.get("/", getAllCats)
-
 catRouter.get("/:id", getCat)
-
 catRouter.get("/:id/picture", getCatPicture)
-
 catRouter.post("/add", uploadMW.single("profilePic"), addCat)
-
-catRouter.put("/:id", editCat)
-
+catRouter.post("/:id/edit", uploadMW.single("profilePic"), editCat)
 catRouter.delete("/:id", deleteCat)
 
 

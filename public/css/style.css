@@ -39,11 +39,11 @@ main {
     height: 100%;
 }
 
-
 .cat-item {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     height: fit-content;
     border: 2px solid #616161;
     width: 100%;

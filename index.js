@@ -1,3 +1,5 @@
+"use strict";
+
 import express from "express";
 
 import attachRoutes from "./routes/index.js";

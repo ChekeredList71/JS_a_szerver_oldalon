@@ -1,3 +1,5 @@
+"use strict";
+
 export default (err, req, res, next) => {
     console.log("oopsie:");
     console.log(err);

@@ -1,3 +1,4 @@
+"use strict";
 import Ability from "../../models/ability.js";
 
 // adds ability. Expected format: { name: string, shortDesc: string, longDesc: string, imgPath: string }

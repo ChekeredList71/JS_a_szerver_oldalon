@@ -12,23 +12,26 @@
         <div class="verticalLine"></div>
         <p>Rövid leírás</p>
         <div class="verticalLine"></div>
-        <p>Törlés?</p>
+        <p>Módosít?</p>
     </div>
     <div id="cat-list">
-        <% for (ability of abilities) { %>
+        <% for (const ability of abilities) { %>
             <div class="cat-item">
                 <p><a href="/ability/<%= ability._id %>"><%= ability.name %></a></p>
                 <div class="verticalLine"></div>
                 <p><%= ability.shortDesc %></p>
                 <div class="verticalLine"></div>
-                <button style="background-color: red"
-                        onclick="fetch('/api/abilities/<%= ability._id %>', {method: 'DELETE'})
-                                .then(response => {
-                                    if (response.ok) {
-                                        window.location.href = '/ability_list';
-                                }})"
-                >Képesség törlése
-                </button>
+                <div role="group" style="max-width: 20%; height: fit-content;">
+                    <button onclick="window.location.href='/editAbility/<%= ability._id%>'">Szerkesztés</button>
+                    <button style="background-color: red"
+                            onclick="fetch('/api/abilities/<%= ability._id %>', {method: 'DELETE'})
+                                    .then(response => {
+                                        if (response.ok) {
+                                            window.location.href = '/ability_list';
+                                    }})"
+                    >Törlés
+                    </button>
+                </div>
             </div>
         <% } %>
     </div>
@@ -36,7 +39,7 @@
 
 <footer class="container-fluid">
     <div class="cat-controls">
-        <button onclick="window.location.href='/addEditAbility'">Új képesség</button>
+        <button onclick="window.location.href='/addAbility'">Új képesség</button>
         <button onclick="window.location.href='/'">Vissza a főoldalra</button>
     </div>
 </footer>

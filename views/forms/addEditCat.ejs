@@ -2,30 +2,31 @@
 
 <header class="container-fluid">
     <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 id="title">Macska hozzáadás / szerkesztés</h1>
+        <h1 id="title">Bivalyhágnádi Cicccaaaaaügyi Minisztérium | Macska</h1>
     </div>
 </header>
 <main class="container-fluid">
     <div class="left-aligned-screenfill-flexbox">
-        <form id="cat-submission-form" method="post" action="/api/cats/add" enctype="multipart/form-data">
+        <form id="cat-submission-form" method="post"
+              action="/api/cats/<%= typeof cat === "undefined" ? "add" : `${cat._id}/edit` %>" enctype="multipart/form-data">
             <label for="cat-form-name">Név</label>
-            <input type="text" name="name" id="cat-form-name" required/>
+            <input type="text" name="name" id="cat-form-name" value="<%= typeof cat === 'undefined' ? '' : cat.name %>" required/>
             <label for="cat-form-sex">Neme</label>
-            <input type="text" name="sex" id="cat-form-sex" required/>
+            <input type="text" name="sex" id="cat-form-sex" value="<%= typeof cat === 'undefined' ? '' : cat.sex %>" required/>
             <label for="cat-form-furColour">Bundaszín</label>
-            <input type="text" name="furColour" id="cat-form-furColour" required/>
+            <input type="text" name="furColour" id="cat-form-furColour" value="<%= typeof cat === 'undefined' ? '' : cat.furColour %>" required/>
             <label for="cat-form-abilityID">Képesség kiválasztása</label>
             <select name="abilityID" id="cat-form-abilityID" required>
                 <% abilities.forEach(ability => { %>
-                    <option value="<%= ability._id %>">
-                        <%= ability.name %>
+                    <option value="<%= ability?._id %>" <%if (typeof cat !== 'undefined') {%> <%- cat._abilityID?.id === ability?.id ? "selected" : "" %> <%}%>>
+                        <%= ability?.name %>
                     </option>
                 <% }) %>
             </select>
             <label for="cat-form-profileDesc">Profil leírás</label>
-            <textarea type="text" name="profileDesc" id="cat-form-profileDesc" required style="height: 45%"></textarea>
+            <textarea type="text" name="profileDesc" id="cat-form-profileDesc" required style="height: 45%"><%= typeof cat === 'undefined' ? '' : cat.profileDesc %></textarea>
             <label for="cat-form-profilePic">CICCAAAkép</label>
-            <input type="file" name="profilePic" id="cat-form-profilePic" required/>
+            <input type="file" name="profilePic" id="cat-form-profilePic" <%- typeof cat === 'undefined' ? 'required' : '' %>/>
             <button type="submit">Mentés</button>
         </form>
     </div>
