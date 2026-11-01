@@ -1,11 +1,17 @@
-import {catDB as db} from "../dummyDBs.js";
+import Cat from "../../models/cat.js";
 
 //returns a cat based on ID
-export default (req, res) => {
-    for (let element of db) {
-        if (element.id === Number(req.params.id)) {
-            res.json(element);
+export default async (req, res, next) => {
+    try {
+        const cat = await Cat.findById(req.params.id)
+
+        if (!cat) {
+            return next(new Error(`Invalid API request: Cat with id ${req.params.id} not found.`));
         }
+
+        res.locals.cat = cat
+        return next()
+    } catch (err) {
+        return next(err)
     }
-    res.status(404).end();
 }

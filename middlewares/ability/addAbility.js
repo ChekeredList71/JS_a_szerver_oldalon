@@ -1,31 +1,36 @@
-import { abilityDB as db } from "../dummyDBs.js"
+import Ability from "../../models/ability.js";
 
 // adds ability. Expected format: { name: string, shortDesc: string, longDesc: string, imgPath: string }
-export default async (req, res) => {
-    const {name, shortDesc, longDesc, imgPath} = req.body;
+export default async (req, res, next) => {
+    const {name, shortDesc, longDesc} = req.body;
+    const abilityPic = req.file;
 
     if (
         typeof name !== "string" ||
         typeof shortDesc !== "string" ||
         typeof longDesc !== "string" ||
-        typeof imgPath !== "string"
+        typeof abilityPic !== "object"
     ) {
         res.header("Content-Type", "text/plain");
-        res.status(400).send(`Request must follow this structure:
-        { name: string, shortDesc: string, longDesc: string, imgPath: string }`)
-        return;
+        return next(new Error("Invalid API request: Request must follow this structure:\n" +
+        "{ name: string, shortDesc: string, longDesc: string, abilityPic: object }"));
     }
 
-    // find how many cats have this ability, if undefined, zero
-    // for now, assume 1
-    db.push({
-        id: db.length ? Math.max(...db.map(ability => ability.id)) + 1 : 1,
-        name: name,
-        shortDesc: shortDesc,
-        catCount: 1,
-        longDesc: longDesc,
-        imgPath: imgPath,
-    })
+    try {
+        await Ability.create(
+            {
+                name: name,
+                shortDesc: shortDesc,
+                longDesc: longDesc,
+                abilityPic: {
+                    data: abilityPic.buffer,
+                    contentType: abilityPic.mimetype,
+                },
+            }
+        )
 
-    res.status(201).send()
+        return res.redirect(303, "/ability_list");
+    } catch (err) {
+        return next(err)
+    }
 }

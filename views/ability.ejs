@@ -1,0 +1,25 @@
+<%- include("templates/header.ejs")%>
+
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title">Bivalyhágnádi Cicccaaaaaügyi Minisztérium | <%= ability.name %> képesség</h1>
+    </div>
+</header>
+<main class="container-fluid">
+    <div id="ability-item-header">
+        <p id="ability-name"><%= ability.name %></p>
+    </div>
+    <div id="ability-list">
+        <p style="white-space: pre-line;">
+            <%= ability.longDesc %>
+        </p>
+        <img src="/api/abilities/<%= ability._id %>/picture" alt="maradj csöndben, WebStorm" style="width:15%">
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/ability_list'">Vissza a képességekhez</button>
+    </div>
+</footer>
+<%- include("templates/footer.ejs")%>

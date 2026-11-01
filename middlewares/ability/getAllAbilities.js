@@ -1,7 +1,17 @@
-import { abilityDB as db } from "../dummyDBs.js"
+import Ability from "../../models/ability.js";
 
 // returns all abilities in a dummy thicc json
-// I could do this in a less retarded way, but let a man be a bit ✨ silly ✨ :D
-export default (req, res) => {
-    res.json(db);
+export default async (req, res, next) => {
+    try {
+        const abilities = await Ability.find({}).select("name shortDesc longDesc")
+
+        if (!abilities) {
+            return next(new Error("Failed to query abilities from DB"));
+        }
+
+        res.locals.abilities = abilities;
+        return next();
+    } catch (err) {
+        return next(err);
+    }
 }

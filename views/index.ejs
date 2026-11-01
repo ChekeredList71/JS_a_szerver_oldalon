@@ -1,0 +1,51 @@
+<%- include("templates/header.ejs")%>
+
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title">Bivalyhágnádi Cicccaaaaaügyi Minisztérium | Macskák</h1>
+    </div>
+</header>
+<hr>
+<main class="container-fluid">
+    <div id="cat-item-header">
+        <p>Név</p>
+        <div class="verticalLine"></div>
+        <p>Nem</p>
+        <div class="verticalLine"></div>
+        <p>Bundaszín</p>
+        <div class="verticalLine"></div>
+        <p>Képesség</p>
+        <div class="verticalLine"></div>
+        <p>Törlés?</p>
+    </div>
+    <div id="cat-list">
+        <% for(let cat of cats) { %>
+        <div class="cat-item">
+            <p><a href="/catProfile/<%= cat._id %>"><%= cat.name %></a></p>
+            <div class="verticalLine"></div>
+            <p><%= cat.sex %></p>
+            <div class="verticalLine"></div>
+            <p><%= cat.furColour %></p>
+            <div class="verticalLine"></div>
+            <p><a href="/ability/<%= cat._abilityID._id%>"><%= cat._abilityID.name %></a></p>
+            <div class="verticalLine"></div>
+            <button style="background-color: red"
+                    onclick="fetch('/api/cats/<%= cat._id %>', {method: 'DELETE'})
+                            .then(response => {
+                            if (response.ok) {
+                            window.location.href = '/';
+                            }})"
+            >Cica OBLITERÁLÁSA
+            </button>
+        </div>
+        <%}%>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/addEditCat'">Cica hozzáadása</button>
+        <button onclick="window.location.href='/ability_list'">Képességek listája</button>
+    </div>
+</footer>
+<%- include("templates/footer.ejs")%>

@@ -1,13 +1,17 @@
-import { abilityDB as db } from "../dummyDBs.js"
+import Ability from "../../models/ability.js";
 
 // delete ability by id
-export default async (req, res) => {
-    const toDelete = db.findIndex(ability => ability.id === Number(req.params.id));
+export default async (req, res, next) => {
+    try {
+        const deleted = await Ability.findByIdAndDelete(req.params.id)
 
-    if (toDelete === -1) {
-        res.status(404).send("NO such ability");
+        if (!deleted) {
+            return next(new Error(`Failed to delete ${req.params.id} ability.`));
+        }
+
+        console.log(`Deleted Ability ${req.params.id} successfully`);
+        return res.sendStatus(200);
+    } catch (err) {
+        return next(err);
     }
-
-    db.splice(toDelete, 1);
-    res.end();
 }

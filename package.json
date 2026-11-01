@@ -5,12 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js,ejs index.js"
   },
   "private": true,
   "dependencies": {
     "ejs": "^7.0.2",
     "express": "^5.2.1",
+    "mongoose": "^9.11.4",
+    "multer": "^2.5.0",
     "nodemon": "^3.1.14"
   }
 }

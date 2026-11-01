@@ -1,0 +1,28 @@
+<%- include('templates/header.ejs')%>
+
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title">Bivalyhágnádi Cicccaaaaaügyi Minisztérium | <%= cat.name %> profilja</h1>
+    </div>
+</header>
+<main class="container-fluid">
+    <div id="ability-item-header">
+        <p id="ability-name">PLACEHOLDER_TEXT</p>
+        <script>document.getElementById("ability-name").innerHTML = document.title</script>
+    </div>
+    <div id="cat-list">
+        <%if (cat.profilePic?.data) {%>
+            <img src="/api/cats/<%= cat._id %>/picture" alt="maradj csöndben, WebStorm" style="width:30%; height: 25%; align-self: flex-start;">
+        <%}%>
+        <p style="white-space: pre-line;">
+            <%= cat.profileDesc ?? ""%>
+        </p>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/'">Vissza a főoldalra</button>
+    </div>
+</footer>
+<%- include('templates/footer.ejs')%>

@@ -1,0 +1,30 @@
+<%- include("../templates/header.ejs")%>
+
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title"></h1>
+        <script>document.getElementById("title").innerHTML = `Bivalyhágnádi Cicccaaaaaügyi Minisztérium | Képesség`</script>
+    </div>
+</header>
+<main class="container-fluid">
+    <div class="left-aligned-screenfill-flexbox">
+        <form id="ability-submission-form" method="post" action="/api/abilities/add" enctype="multipart/form-data">
+            <label for="ability-form-name">Név</label>
+            <input type="text" name="name" id="ability-form-name" required/>
+            <label for="ability-form-shortDesc">Rövid leírás</label>
+            <input type="text" name="shortDesc" id="ability-form-shortDesc" required/>
+            <label for="ability-form-longDesc">Hosszú leírás</label>
+            <textarea type="text" name="longDesc" id="ability-form-longDesc" required style="height: 45%"></textarea>
+            <label for="ability-form-abilityPic">CICCAAAkép</label>
+            <input type="file" name="abilityPic" id="ability-form-abilityPic" required/>
+            <button type="submit">Mentés</button>
+        </form>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/'">Vissza a főoldalra</button>
+    </div>
+</footer>
+<%- include("../templates/footer.ejs")%>

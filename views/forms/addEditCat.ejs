@@ -1,0 +1,39 @@
+<%- include("../templates/header.ejs")%>
+
+<header class="container-fluid">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 id="title">Macska hozzáadás / szerkesztés</h1>
+    </div>
+</header>
+<main class="container-fluid">
+    <div class="left-aligned-screenfill-flexbox">
+        <form id="cat-submission-form" method="post" action="/api/cats/add" enctype="multipart/form-data">
+            <label for="cat-form-name">Név</label>
+            <input type="text" name="name" id="cat-form-name" required/>
+            <label for="cat-form-sex">Neme</label>
+            <input type="text" name="sex" id="cat-form-sex" required/>
+            <label for="cat-form-furColour">Bundaszín</label>
+            <input type="text" name="furColour" id="cat-form-furColour" required/>
+            <label for="cat-form-abilityID">Képesség kiválasztása</label>
+            <select name="abilityID" id="cat-form-abilityID" required>
+                <% abilities.forEach(ability => { %>
+                    <option value="<%= ability._id %>">
+                        <%= ability.name %>
+                    </option>
+                <% }) %>
+            </select>
+            <label for="cat-form-profileDesc">Profil leírás</label>
+            <textarea type="text" name="profileDesc" id="cat-form-profileDesc" required style="height: 45%"></textarea>
+            <label for="cat-form-profilePic">CICCAAAkép</label>
+            <input type="file" name="profilePic" id="cat-form-profilePic" required/>
+            <button type="submit">Mentés</button>
+        </form>
+    </div>
+</main>
+
+<footer class="container-fluid">
+    <div class="cat-controls">
+        <button onclick="window.location.href='/'">Vissza a főoldalra</button>
+    </div>
+</footer>
+<%- include("../templates/footer.ejs")%>
