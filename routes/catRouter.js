@@ -17,7 +17,7 @@ catRouter.get("/:id", getCat)
 catRouter.get("/:id/picture", getCatPicture)
 catRouter.post("/add", uploadMW.single("profilePic"), addCat)
 catRouter.post("/:id/edit", uploadMW.single("profilePic"), editCat)
-catRouter.delete("/:id", deleteCat)
+catRouter.post("/:id/delete", deleteCat)
 
 
 export default catRouter;
