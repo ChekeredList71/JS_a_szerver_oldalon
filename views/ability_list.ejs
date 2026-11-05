@@ -24,13 +24,13 @@
                 <div role="group" style="max-width: 20%; height: fit-content;">
                     <button onclick="window.location.href='/editAbility/<%= ability._id%>'">Szerkesztés</button>
                     <button style="background-color: red"
-                            onclick="fetch('/api/abilities/<%= ability._id %>', {method: 'DELETE'})
-                                    .then(response => {
-                                        if (response.ok) {
-                                            window.location.href = '/ability_list';
-                                    }})"
-                    >Törlés
-                    </button>
+                            onclick="document.getElementById('deleteForm_<%= ability._id %>').submit()"
+                    >Törlés</button>
+                    <form id="deleteForm_<%= ability._id %>"
+                          action="/api/abilities/<%= ability._id %>/delete"
+                          method="POST"
+                          style="display: none;">
+                    </form>
                 </div>
             </div>
         <% } %>

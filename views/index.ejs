@@ -37,13 +37,13 @@
             <div role="group" style="max-width: 20%; height: fit-content;">
                 <button onclick="window.location.href='/editCat/<%= cat._id%>'">Szerkesztés</button>
                 <button style="background-color: red"
-                        onclick="fetch('/api/cats/<%= cat._id %>', {method: 'DELETE'})
-                                .then(response => {
-                                if (response.ok) {
-                                window.location.href = '/';
-                                }})"
-                >OBLITERÁLÁS
-                </button>
+                        onclick="document.getElementById('deleteForm_<%= cat._id %>').submit()"
+                >OBLITERÁLÁS</button>
+                <form id="deleteForm_<%= cat._id %>"
+                      action="/api/cats/<%= cat._id %>/delete"
+                      method="POST"
+                      style="display: none;">
+                </form>
             </div>
         </div>
         <%}%>

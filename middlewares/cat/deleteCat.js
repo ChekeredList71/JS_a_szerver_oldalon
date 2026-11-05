@@ -12,7 +12,7 @@ export default async (req, res, next) => {
         }
 
         console.log(`Deleted Cat ${req.params.id} successfully`);
-        return  res.sendStatus(200);
+        return  res.redirect("/")
     } catch (err) {
         return next(err)
     }

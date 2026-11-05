@@ -19,6 +19,6 @@ abilityRouter.get("/:id/picture", getAbilityPicture)
 abilityRouter.get("/:id/catCount", getCatCountForAbility)
 abilityRouter.post("/add", uploadMW.single("abilityPic"), addAbility)
 abilityRouter.post("/:id/edit", uploadMW.single("abilityPic"), editAbility)
-abilityRouter.delete("/:id", deleteAbility)
+abilityRouter.post("/:id/delete", deleteAbility)
 
 export default abilityRouter;
